@@ -1,0 +1,148 @@
+*{
+	border: none;
+	border-radius: 0px;
+	font-family: Iosevka, FontAwesome, Noto Sans CJK;
+	font-size: 14px;
+	font-style: normal;
+	min-height: 0;
+}
+
+window#waybar{
+	background: rgba(100,100,100,0.4);
+	color: #f4d9e1;
+}
+
+#workspaces {
+	background: #282828;
+	margin: 5px 5px 5px 5px;
+	padding: 0px 5px 0px 5px;
+	border-radius: 16px;
+	border: solid 0px #f4d9e1;
+	font-weight: normal;
+	font-style: normal;	
+}
+
+#workspaces button {
+	padding: 0px 5px;
+	border-radius: 16px;
+	color: #928374;
+}
+
+#workspaces button.active { 
+	color: #f4d9e1;
+	border-radius: 16px;
+}
+
+#workspaces button:hover {
+	background-color: #E6B9C6;
+	color: black;
+	border-radius: 16px;
+}
+
+#window, #pulseaudio, #bluetooth, #memory, #cpu, #temperature, #battery, #clock, #notification, #tray{
+	background-color: white;
+	padding:5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+	border-radius: 8px;
+	border: solid 0px #f4d9e1;
+}
+
+#tray {
+	background: #282828;
+}
+
+#clock { 
+	color: #E6B9C6;
+	background-color:#282828;
+	
+}
+
+#battery{
+	color:#93ce6a;
+	background-color: #282828;
+	border-radius: 16px;
+	margin:5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0px 5px 0px 5px;
+	font-weight:bold;
+}
+#battery.charging {
+	color: #9ece6a;
+}
+#battery.warning:not(.charging){
+	background-color: #f7768e;
+	color: #24283b;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#pulseaudio{
+	background-color: #282828;
+	border-radius: 16px;
+	margin:5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0px 5px 0px 5px;
+	font-weight:bold;	
+}
+
+#window{
+	background: #282828;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 16px;
+	margin-top: 5px;
+	margin-bottom:5px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#cpu{
+	background-color: #282828;
+	border-radius: 16px;;
+	margin: 5px;
+	margin-left:5px;
+	margin-right:5px;
+	padding:0px 5px 0px 5px;
+	font-weight: bold;
+}
+
+#memory{
+	background-color: #282828;
+	border-radius: 16px;
+	margin:5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0px 5px 0px 5px;
+	font-weight:bold;
+}
+
+#bluetooth{
+	background-color: #282828;
+	border-radius: 16px;
+	margin:5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0px 5px 0px 5px;
+	font-weight:bold;
+}
+
+#temperature{
+	background-color: #282828;
+	border-radius: 16px;
+	margin:5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0px 5px 0px 5px;
+	font-weight:bold;
+}
+
+#custom-notification{
+	background-color: #282828;
+	border-radius: 16px;
+	margin:5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0px 5px 0px 5px;
+	font-weight:bold;
+}

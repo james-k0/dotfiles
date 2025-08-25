@@ -1,0 +1,11 @@
+#Ignore everything
+*
+#Track specific folders 
+!fcitx5/**
+!hypr/**
+!kitty/**
+!nvim/**
+!nyaa/**
+!rofi/**
+!swaync/**
+!waybar/**
